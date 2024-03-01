@@ -77,7 +77,7 @@
       </row>
       <row>
        <entry><literal>handle</literal></entry>
-       <entry>Resource of type curl indicates the handle which it concerns.</entry>
+       <entry>A <classname>CurlHandle</classname> instance indicates the handle which it concerns.</entry>
       </row>
      </tbody>
     </tgroup>
@@ -97,6 +97,13 @@
     </thead>
     <tbody>
      &curl.changelog.multi-handle-param;
+     <row>
+      <entry>8.0.0</entry>
+      <entry>
+       This function returns a <classname>CurlHandle</classname> instance now;
+       previously, a <type>resource</type> was returned.
+      </entry>
+     </row>
     </tbody>
    </tgroup>
   </informaltable>
